@@ -84,23 +84,19 @@ Supply-Chain-Analysis-SQL-Python_PowerBI
 │
 ├── README.md
 ├── .gitignore
-├── Supply Chain Analysis Report.pdf
+├── Supply_Chain_Analytics_Analysis_Report.pdf
 │
+├── Notebooks/                         # Python notebooks
+│   └── Supply_Chain_Analysis-checkpoint.ipynb
 │
-├── notebooks/                         # Python notebooks
-│   └── supply_chain_eda.ipynb
+├── MySQL/                               # SQL queries
+│   └── Supply Chain Business Questions Answerss.sql
 │
-├── scripts/                           # Python scripts
-│   └── supply_chain_analysis.py
+├── Dashboard/                         # Power BI dashboard
+│   └── Supply_Chain_Analysis_Dashboard.pbix
 │
-├── sql/                               # SQL queries
-│   └── supply_chain_analysis.sql
-│
-├── dashboard/                         # Power BI dashboard
-│   └── supply_chain_dashboard.pbix
-│
-└── images/                             # Dashboard screenshots
-    └── dashboard.png
+└── Dashboard image/                             # Dashboard screenshots
+    └── Dashboard image.png
 ```
 
 ---
@@ -121,7 +117,7 @@ The data preparation process included:
 **Data Quality Summary:**
 - Total records: 100
 - Total columns: 24
-- Missing values: None identified in the working dataset
+- Missing values: Removed missing vakues in the working dataset
 - Duplicate records: None identified in the working dataset
 
 ---
@@ -225,9 +221,8 @@ The dashboard includes:
 
 ### Dashboard Preview
 
-![Supply Chain Power BI Dashboard](images/dashboard.png)
+<img width="1306" height="727" alt="Dashboard Image" src="https://github.com/user-attachments/assets/4fa3ef44-1e2f-4c23-921e-7157d80a6ca4" />
 
-[View Supply Chain Dashboard](images/dashboard.png)
 
 ---
 
@@ -239,12 +234,10 @@ The dashboard includes:
 git clone https://github.com/yourusername/supply-chain-analysis.git
 ```
 
-Replace `yourusername` with your GitHub username and `supply-chain-analysis` with your repository name.
-
 ### 2. Navigate to the Project Folder
 
 ```bash
-cd supply-chain-analysis
+Supply-Chain-Analysis-SQL-Python_PowerBI
 ```
 
 ### 3. Install Required Python Libraries
@@ -253,19 +246,12 @@ cd supply-chain-analysis
 pip install -r requirements.txt
 ```
 
-### 4. Load the Dataset into MySQL
-
-- Open MySQL Workbench.
-- Create the database.
-- Import the dataset.
-- Execute the SQL queries available in the `sql/` folder.
-
-### 5. Run Python Analysis
+### 4. Run Python Analysis
 
 Open the Jupyter Notebook:
 
 ```text
-notebooks/supply_chain_eda.ipynb
+Supply_Chain_Analysis-checkpoint.ipynb
 ```
 
 Run the notebook cells to perform Exploratory Data Analysis.
@@ -275,7 +261,7 @@ Run the notebook cells to perform Exploratory Data Analysis.
 Open the following file using Power BI Desktop:
 
 ```text
-dashboard/supply_chain_dashboard.pbix
+Supply_Chain_Analysis_Dashboard.pbix
 ```
 
 Explore the dashboard using the available KPIs, charts, and interactive slicers.
@@ -297,23 +283,10 @@ Based on the analysis, the following recommendations can help improve supply cha
 
 ## Author & Contact
 
-**Name:** __________________________
+**Name:** Mohammed Saqib
 
 **Role:** Aspiring Data Analyst
 
-**Email:** __________________________
+**Email:** mohammedsaqibys@gmail.com
 
-**LinkedIn:** __________________________
-
-**GitHub:** __________________________
-
-**Portfolio:** __________________________
-```
-
-**A few important points before uploading:**
-
-1. The folder structure above is a suggested GitHub structure based on your reference. Make sure the actual files and folder names in your repository match it.
-2. Replace `yourusername` in the clone command with your GitHub username.
-3. Add your actual Power BI dashboard screenshot at `images/dashboard.png`.
-4. Your dataset has no transaction-date field suitable for time-series analysis, so I have not included monthly or seasonal trend claims.
-5. Your analysis does not contain profit-margin calculations, so the README focuses on revenue, costs, inventory, logistics, and quality rather than claiming profitability analysis.
+**LinkedIn:** linkedin.com/in/mohammed-saqib-422259358
