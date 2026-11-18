@@ -117,7 +117,7 @@ The data preparation process included:
 **Data Quality Summary:**
 - Total records: 100
 - Total columns: 24
-- Missing values: Removed missing vakues in the working dataset
+- Missing values: Removed missing values in the working dataset
 - Duplicate records: None identified in the working dataset
 
 ---
@@ -231,7 +231,7 @@ The dashboard includes:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/supply-chain-analysis.git
+https://github.com/Saqibys/Supply-Chain-Analysis-SQL-Python_PowerBI.git
 ```
 
 ### 2. Navigate to the Project Folder
