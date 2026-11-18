@@ -289,4 +289,3 @@ Based on the analysis, the following recommendations can help improve supply cha
 
 **Email:** mohammedsaqibys@gmail.com
 
-**LinkedIn:** linkedin.com/in/mohammed-saqib-422259358
